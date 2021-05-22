@@ -9,4 +9,5 @@ export class Notification {
     static empty(): Notification {
         return new Notification('')
     }
+    
 }

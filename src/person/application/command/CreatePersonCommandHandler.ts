@@ -1,10 +1,10 @@
 import { Injectable } from '@nestjs/common'
-import { CreateUserEvent } from 'src/crosscutting/domain/events/CreateUserEvent';
-import { EventPusblisher } from 'src/crosscutting/domain/events/EventPusblisher';
-import { CPF } from "src/crosscutting/domain/valueobjects/CPF"
-import { DomainInvalidException } from 'src/crosscutting/exception/DomainInvalidException';
-import { PersonRepository } from 'src/person/infrastructure/repository/PersonRepository';
-import { Person } from "../domain/Person";
+import { CreateUserEvent } from '@crosscutting/domain/events/CreateUserEvent';
+import { EventPusblisher } from '@crosscutting/domain/events/EventPusblisher';
+import { CPF } from "@crosscutting/domain/valueobjects/CPF"
+import { DomainInvalidException } from '@crosscutting/exception/DomainInvalidException';
+import { PersonRepository } from '@base/person/infrastructure/repository/PersonRepository';
+import { Person } from "@base/person/application/domain/Person";
 import { CreatePersonCommand } from './CreatePersonCommand';
 
 

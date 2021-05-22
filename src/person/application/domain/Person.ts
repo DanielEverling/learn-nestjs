@@ -1,6 +1,6 @@
-import { DomainEntity } from 'src/crosscutting/domain/DomainEntity';
-import { Notification } from 'src/crosscutting/domain/Notification';
-import { CPF } from 'src/crosscutting/domain/valueobjects/CPF';
+import { DomainEntity } from '@crosscutting/domain/DomainEntity';
+import { Notification } from '@crosscutting/domain/Notification';
+import { CPF } from '@crosscutting/domain/valueobjects/CPF';
 import { v4 as uuid } from 'uuid'
 
 import '../../../crosscutting/extenstion/Extension'
